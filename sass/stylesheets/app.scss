@@ -120,6 +120,46 @@ body {
         }
 
       }
+
+      .birdBox {
+        position: absolute;
+        width: 340px;
+        height: 100px;
+        overflow: hidden;
+        top: 60px;
+        left: -20px;
+
+        .wing1 {
+          content: "";
+          position: absolute;
+          margin-top:3px;
+          margin-left:3px;
+          top:50px;
+          left:50px;
+          width: 25px;
+          height: 25px;
+          border-radius: 50%;
+          background-color: transparent;
+          opacity:0.8;
+          border-top:4px solid #343434;
+          transform:rotate(-45deg); 
+        }
+        .wing2 {
+          content: "";
+          position: absolute;
+          margin-top:3px;
+          margin-left:3px;
+          top:34px;
+          left:68px;
+          width: 25px;
+          height: 25px;
+          border-radius: 50%;
+          background-color: transparent;
+          opacity:0.8;
+          border-top:4px solid #343434;
+          transform:rotate(-45deg); 
+        }
+      }
   }
 
 }

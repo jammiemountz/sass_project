@@ -116,6 +116,47 @@ body h1 {
   animation: bubble1-h-movement 2.5s ease-in infinite;
 }
 
+.test .myCircle .birdBox {
+  position: absolute;
+  width: 340px;
+  height: 100px;
+  overflow: hidden;
+  top: 60px;
+  left: -20px;
+}
+
+.test .myCircle .birdBox .wing1 {
+  content: "";
+  position: absolute;
+  margin-top: 3px;
+  margin-left: 3px;
+  top: 50px;
+  left: 50px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: transparent;
+  opacity: 0.8;
+  border-top: 4px solid #343434;
+  transform: rotate(-45deg);
+}
+
+.test .myCircle .birdBox .wing2 {
+  content: "";
+  position: absolute;
+  margin-top: 3px;
+  margin-left: 3px;
+  top: 34px;
+  left: 68px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: transparent;
+  opacity: 0.8;
+  border-top: 4px solid #343434;
+  transform: rotate(-45deg);
+}
+
 .sea {
   margin: 10px auto 0 auto;
   overflow: hidden;
